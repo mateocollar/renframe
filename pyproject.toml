@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "renframe"
+version = "0.1.0"
+description = "A modern UI framework and transpiler for Ren'Py inspired by CSS/Flexbox."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+renframe = "renframe.cli:main"
